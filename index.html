@@ -1,11 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oumou | Junior Front-End Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+    <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-indigo-600 tracking-tight">Oumou<span class="text-slate-800">.dev</span></a>
+      <ul class="flex gap-6 text-sm font-medium text-slate-600">
+        <li><a href="#chi-sono" class="hover:text-indigo-600 transition">Chi sono</a></li>
+        <li><a href="#competenze" class="hover:text-indigo-600 transition">Competenze</a></li>
+        <li><a href="#progetti" class="hover:text-indigo-600 transition">Progetti</a></li>
+        <li><a href="#contatti" class="hover:text-indigo-600 transition">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="max-w-5xl mx-auto px-6 py-24 md:py-32 flex flex-col items-start">
+    <span class="px-3 py-1 text-xs font-semibold uppercase tracking-wider text-indigo-600 bg-indigo-50 rounded-full mb-4">
+      Disponibile per nuove opportunità
+    </span>
+    <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-6">
+      Ciao, sono <span class="text-indigo-600">Oumou</span>.<br>
+      Junior Front-End Web Developer.
+    </h1>
+    <p class="text-lg md:text-xl text-slate-600 max-w-2xl mb-8 leading-relaxed">
+      Progetto e sviluppo interfacce web moderne, accessibili e responsive, trasformando idee creative in codice pulito e intuitivo.
+    </p>
+    <div class="flex flex-wrap gap-4">
+      <a href="#progetti" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-sm hover:bg-indigo-700 transition">
+        Guarda i miei progetti
+      </a>
+      <a href="#contatti" class="px-6 py-3 bg-white text-slate-700 font-medium rounded-lg border border-slate-300 hover:bg-slate-50 transition">
+        Contattami
+      </a>
+    </div>
+  </section>
+
+  <!-- CHI SONO -->
+  <section id="chi-sono" class="bg-white py-20 border-y border-slate-200">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-slate-900 mb-6">Chi sono</h2>
+      <p class="text-slate-600 text-lg leading-relaxed max-w-3xl">
+        Sviluppatrice Front-End e professionista creativa con un background versatile. Combino competenze tecniche nello sviluppo di interfacce web (HTML5, CSS3, JavaScript, TypeScript, React e Tailwind CSS) con una grande passione per il design e la cura dei dettagli visivi. Amo costruire esperienze digitali fluide, accessibili e centrare sull'utente, imparando e migliorando ad ogni nuovo progetto.
+      </p>
+    </div>
+  </section>
+
+  <!-- COMPETENZE (TECH STACK) -->
+  <section id="competenze" class="max-w-5xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-slate-900 mb-8">Competenze Tecniche</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Linguaggi Core -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+        <h3 class="font-bold text-lg text-slate-900 mb-4">Core Front-End</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">HTML5</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">CSS3</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">JavaScript (ES6+)</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">TypeScript</span>
+        </div>
+      </div>
+
+      <!-- Framework & Librerie -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+        <h3 class="font-bold text-lg text-slate-900 mb-4">Framework & Styling</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">React</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">Tailwind CSS</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">Bootstrap</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">REST APIs</span>
+        </div>
+      </div>
+
+      <!-- Strumenti & UI -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+        <h3 class="font-bold text-lg text-slate-900 mb-4">Strumenti & UI/UX</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">Git</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">GitHub</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">VS Code</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">Responsive Design</span>
+          <span class="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-md font-medium">Accessibilità WCAG</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGETTI -->
+  <section id="progetti" class="bg-white py-20 border-t border-slate-200">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-slate-900 mb-4">I miei Progetti</h2>
+      <p class="text-slate-600 mb-12">I lavori realizzati e i progetti attualmente in fase di sviluppo per consolidare le mie competenze front-end.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- PROGETTO 1: Salone Parrucchiera -->
+        <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+          <div>
+            <!-- Segnaposto immagine: sostituisci con <img src="img/parrucchiera.png" alt="Anteprima Oum's Coiffure" class="w-full h-44 object-cover"> -->
+            <div class="h-44 bg-indigo-100 flex items-center justify-center text-indigo-600 font-medium text-sm">
+              [Screenshot Oum's Coiffure]
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-2">
+                <h3 class="text-xl font-bold text-slate-900">Oum's Coiffure</h3>
+              </div>
+              <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                Sito web promozionale per salone di acconciature con presentazione dei servizi e struttura pensata per la prenotazione appuntamenti.
+              </p>
+              <div class="flex flex-wrap gap-1.5 mb-6">
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">HTML5</span>
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">CSS3</span>
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="px-6 pb-6 flex gap-4 text-sm font-semibold">
+            <a href="https://github.com/oumouniaonedabre-dot/coiffure.it" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">
+              Codice su GitHub →
+            </a>
+          </div>
+        </article>
+
+        <!-- PROGETTO 2: App Meteo (In corso) -->
+        <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+          <div>
+            <div class="h-44 bg-sky-100 flex flex-col items-center justify-center text-sky-700 font-medium text-sm gap-2">
+              <span>[Anteprima Weather App]</span>
+              <span class="px-2.5 py-0.5 bg-amber-100 text-amber-800 text-xs font-semibold rounded-full">In sviluppo</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Weather App</h3>
+              <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                Applicazione meteo in tempo reale con ricerca per città e visualizzazione dinamica di temperatura, umidità e vento tramite API esterne.
+              </p>
+              <div class="flex flex-wrap gap-1.5 mb-6">
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">JavaScript</span>
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">Tailwind CSS</span>
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">Fetch API</span>
+              </div>
+            </div>
+          </div>
+          <div class="px-6 pb-6 flex gap-4 text-sm font-medium text-slate-400">
+            <span>Prossimamente su GitHub</span>
+          </div>
+        </article>
+
+        <!-- PROGETTO 3: E-commerce (In corso) -->
+        <article class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden flex flex-col justify-between hover:shadow-md transition">
+          <div>
+            <div class="h-44 bg-emerald-100 flex flex-col items-center justify-center text-emerald-700 font-medium text-sm gap-2">
+              <span>[Anteprima Store Front-End]</span>
+              <span class="px-2.5 py-0.5 bg-amber-100 text-amber-800 text-xs font-semibold rounded-full">In sviluppo</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-slate-900 mb-2">E-commerce UI</h3>
+              <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                Interfaccia e-commerce responsive con catalogo prodotti, filtri per categoria e gestione interattiva del carrello acquisti.
+              </p>
+              <div class="flex flex-wrap gap-1.5 mb-6">
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">React</span>
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">TypeScript</span>
+                <span class="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded">Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+          <div class="px-6 pb-6 flex gap-4 text-sm font-medium text-slate-400">
+            <span>Prossimamente su GitHub</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATTI & FOOTER -->
+  <footer id="contatti" class="bg-slate-900 text-slate-300 py-16">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">Lavoriamo insieme</h2>
+      <p class="text-slate-400 max-w-lg mx-auto mb-8">
+        Cerchi una Junior Front-End Developer motivata per il tuo team o vuoi scambiare due chiacchiere su un progetto? Scrivimi!
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 mb-10 font-medium">
+        <a href="mailto:tuaemail@esempio.com" class="px-5 py-2.5 bg-indigo-600 text-white rounded-lg hover:bg-indigo-500 transition">
+          Inviami un'email
+        </a>
+        <a href="https://github.com/oumouniaonedabre-dot" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition">
+          GitHub
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition">
+          LinkedIn
+        </a>
+      </div>
+      <p class="text-xs text-slate-500">© 2026 Oumou. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
